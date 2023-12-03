@@ -1,0 +1,39 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+}
+
+#smsBox,
+#messengerBox,
+#gmailBox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#authorize_button,
+#signout_button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+}
+
+#authorize_button:hover,
+#signout_button:hover {
+  background-color: #3c78d8;
+}
